@@ -300,7 +300,7 @@ class CartaoDePostagem2018
             $this->pdf->SetFont('');
 
             // Peso
-            if(!empty($objetoPostal->getPeso()))) {
+            if(!empty($objetoPostal->getPeso())) {
                 $this->pdf->SetXY(81, 31);
                 $this->t(15, 'Peso (g):', 1, 'L', null);
                 $this->pdf->SetFont('', 'B');
